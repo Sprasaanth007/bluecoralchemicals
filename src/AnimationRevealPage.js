@@ -57,8 +57,10 @@ function AnimatedSlideInComponent({
   );
 }
 
-export default (props) => (
+const AnimationRevealFunc = (props) => (
   <StyledDiv className="App">
     <AnimationReveal {...props} />
   </StyledDiv>
 );
+
+export default AnimationRevealFunc;
