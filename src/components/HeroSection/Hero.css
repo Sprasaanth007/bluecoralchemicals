@@ -1,0 +1,116 @@
+.hero-container {
+  width: 100vw;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.hero-left-side h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.hero-left-side p {
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  line-height: 5rem;
+}
+
+.hero-left-side span {
+  color: #6300e6;
+}
+
+.chemical-image img {
+  width: 30vw;
+}
+
+@media (max-width: 800px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .chemical-image img {
+    width: 90vw;
+  }
+  .hero-left-side p {
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .chemical-image img {
+    width: 60vw;
+  }
+  .hero-left-side p {
+    font-size: 1.1rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero-container {
+    width: 100vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+  }
+  .chemical-image img {
+    width: 40vw;
+  }
+  .hero-left-side p {
+    font-size: 1.1rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .chemical-image img {
+    width: 40vw;
+  }
+  .hero-left-side p {
+    font-size: 1.1rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .hero-container {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .chemical-image img {
+    width: 40vw;
+  }
+  .hero-left-side p {
+    font-size: 1.3rem;
+    line-height: 5rem;
+  }
+}
