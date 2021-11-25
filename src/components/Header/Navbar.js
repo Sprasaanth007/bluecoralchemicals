@@ -5,7 +5,7 @@ import { AiOutlineCloseSquare } from "react-icons/ai";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [top, setTop] = useState("-100%");
+  const [top, setTop] = useState("-120%");
   const [display, setDisplay] = useState("block");
 
   function show() {
@@ -14,7 +14,7 @@ const Navbar = () => {
   }
 
   function close() {
-    setTop("-100%");
+    setTop("-120%");
   }
 
   return (
